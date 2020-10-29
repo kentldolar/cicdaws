@@ -1,5 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: ./demo.txt
-    destination: /var/www/html/cicdaws
+  - source: ./src
+    destination: /var/www/html
+permissions:
+  - object: /var/www/html
+    owner: root
+    group: root
+    mode: 777
