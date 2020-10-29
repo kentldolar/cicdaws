@@ -1,3 +1,8 @@
 #!/bin/bash
 yum install -y httpd
-rm -r /var/www/html/cicdaws
+
+DIR="/var/www/html/cicdaws"
+if [ -d "$DIR" ]; then
+  # Take action if $DIR exists. #
+  rm -r /var/www/html/cicdaws
+fi
