@@ -1,6 +1,8 @@
 version: 0.0
 os: linux
 files:
+  - source: ./demo.txt
+    destination: /var/www/html/
   - source: ./src
     destination: /var/www/html/cicdaws
 permissions:
