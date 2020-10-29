@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: ./demo.txt
-    destination: /
+    destination: /var/www/html/cicdaws
