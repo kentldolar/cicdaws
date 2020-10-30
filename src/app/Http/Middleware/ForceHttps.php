@@ -19,5 +19,6 @@ class ForceHttps
             return redirect()->secure($request->getRequestUri());
         }
         return $next($request);
+        
     }
 }
