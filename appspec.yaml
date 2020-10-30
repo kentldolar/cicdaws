@@ -19,6 +19,9 @@ hooks:
     - location: scripts/post_install.sh
       timeout: 30
       runas: root
+    - location: scripts/change_permission.sh
+      timeout: 300
+      runas: root
   ApplicationStop:
     - location: scripts/stop_server.sh
       timeout: 300
