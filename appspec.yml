@@ -3,6 +3,8 @@ os: linux
 files:
   - source: ./appspec.yml
     destination: /var/www/html/
+  - source: ./scipts
+    destination: /var/www/html/
   - source: ./src
     destination: /var/www/html/cicdaws
 permissions:
