@@ -469,10 +469,78 @@ system documentation and computer tech support, with the help of <a href="https:
 
         <!--List WOrk-->
         <div class="block-page" >
-
-
           <div class="container-medium clearfix">
             <div class="row list-work">
+              <div class="col-md-4 col-sm-6">
+                  <div class="box-work">
+                    <div class="work-preview">
+                      <img src="{{ asset('public/images/p1.png') }}" alt="Development and Production AWS Infrastructure Server Projects (AWS)">
+                      <div class="hover">
+                        <div class="link-btns">
+                          <a href="{{ asset('public/images/portfolio1200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <a href="#" class="project-title" target="_blank">Development and Production Cloud Infrastructure Server Projects (AWS)</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-sm-6">
+                  <div class="box-work">
+                    <div class="work-preview">
+                      <img src="{{ asset('public/images/p2.png') }}" alt="S3 Web Hosting Projects">
+                      <div class="hover">
+                        <div class="link-btns">
+                          <a href="{{ asset('public/images/portfolio2200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <a href="#" class="project-title" target="_blank">S3 Web Hosting Projects (AWS)</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-sm-6">
+                  <div class="box-work">
+                    <div class="work-preview">
+                      <img src="{{ asset('public/images/p3.png') }}" alt="Speech to Text Serverless Application using AWS Lambda Projects (AWS)">
+                      <div class="hover">
+                        <div class="link-btns">
+                          <a href="{{ asset('public/images/portfolio3200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <a href="#" class="project-title" target="_blank">Speech to Text Serverless Application using AWS Lambda Projects (AWS)</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-sm-6">
+                  <div class="box-work">
+                    <div class="work-preview">
+                      <img src="{{ asset('public/images/p4.png') }}" alt="Dual Security using Amazon Workspace (AWS)">
+                      <div class="hover">
+                        <div class="link-btns">
+                          <a href="{{ asset('public/images/portfolio4200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <a href="#" class="project-title" target="_blank">Dual Security using Amazon Workspace (AWS)</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="{{ asset('public/images/p5.png') }}" alt="Development and Production CI/CD Github-CodeDeploy and CodePipeline">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="{{ asset('public/images/portfolio5200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="#" class="project-title" target="_blank">Development and Production CI/CD Github-CodeDeploy and CodePipeline (AWS)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="col-md-4 col-sm-6">
                 <div class="box-work">
                   <div class="work-preview">
@@ -866,7 +934,7 @@ system documentation and computer tech support, with the help of <a href="https:
     <script src="{{ asset('public/plugins/bootstrap-3.3.1/js/bootstrap.min.js') }}"></script>
 
     <!-- maps js move it in env-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUFG4Guh-4WzdiCTAnoch9Q5uNSiexlNg" type="text/javascript"></script> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnaRXO_URtinYZvUJ1WNLPgwQX-xfQhcs" type="text/javascript"></script> 
     <script src="{{ asset('public/plugins/jquery.ui.map.js') }}"></script> 
     <!-- advanced easing options -->
     <script src="{{ asset('public/plugins/jquery.easing-1.3.pack.js') }}"></script>

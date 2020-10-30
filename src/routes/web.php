@@ -16,16 +16,6 @@ Route::get('/', function () {
     return view('white');
 });
 
-// frontpage
-Route::get('/blackandwhite', function () {
-    return view('choose');
-});
-
-// black
-Route::get('/blackpage', function () {
-    return view('black');
-});
-
 // white
 Route::get('/whitepage', function () {
     return view('white');

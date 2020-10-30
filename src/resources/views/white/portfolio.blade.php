@@ -120,19 +120,75 @@
           </div>
         </div><!--END  TITLE PAGE-->
 
-        <div class="block-page" >
+        <div id="demo" class="block-page" >
           <div class="container-medium clearfix">
             <div class="row list-work">
               <div class="col-md-4 col-sm-6">
+                  <div class="box-work">
+                    <div class="work-preview">
+                      <img src="{{ asset('public/images/p1.png') }}" alt="Development and Production AWS Infrastructure Server Projects (AWS)">
+                      <div class="hover">
+                        <div class="link-btns">
+                          <a href="{{ asset('public/images/portfolio1200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <a href="#" class="project-title" target="_blank">Development and Production Cloud Infrastructure Server Projects (AWS)</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-sm-6">
+                  <div class="box-work">
+                    <div class="work-preview">
+                      <img src="{{ asset('public/images/p2.png') }}" alt="S3 Web Hosting Projects">
+                      <div class="hover">
+                        <div class="link-btns">
+                          <a href="{{ asset('public/images/portfolio2200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <a href="#" class="project-title" target="_blank">S3 Web Hosting Projects (AWS)</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-sm-6">
+                  <div class="box-work">
+                    <div class="work-preview">
+                      <img src="{{ asset('public/images/p3.png') }}" alt="Speech to Text Serverless Application using AWS Lambda Projects (AWS)">
+                      <div class="hover">
+                        <div class="link-btns">
+                          <a href="{{ asset('public/images/portfolio3200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <a href="#" class="project-title" target="_blank">Speech to Text Serverless Application using AWS Lambda Projects (AWS)</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-sm-6">
+                  <div class="box-work">
+                    <div class="work-preview">
+                      <img src="{{ asset('public/images/p4.png') }}" alt="Dual Security using Amazon Workspace (AWS)">
+                      <div class="hover">
+                        <div class="link-btns">
+                          <a href="{{ asset('public/images/portfolio4200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                        </div>
+                        <a href="#" class="project-title" target="_blank">Dual Security using Amazon Workspace (AWS)</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-4 col-sm-6">
                 <div class="box-work">
                   <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p1.png" alt="">
+                    <img src="{{ asset('public/images/p5.png') }}" alt="Development and Production CI/CD Github-CodeDeploy and CodePipeline">
                     <div class="hover">
                       <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p1.png" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                        <a href="{{ asset('public/images/portfolio5200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-link"></i></a>
                       </div>
-                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                      <a href="#" class="project-title" target="_blank">Development and Production CI/CD Github-CodeDeploy and CodePipeline (AWS)</a>
                     </div>
                   </div>
                 </div>
@@ -140,125 +196,130 @@
               <div class="col-md-4 col-sm-6">
                 <div class="box-work">
                   <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p2.jpg" alt="">
+                    <img src="{{ asset('public/images/400x300jjhs.png') }}" alt="kentldolar jjhs project">
                     <div class="hover">
                       <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p2.jpg" title="pic 02" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                        <a href="{{ asset('public/images/400x300jjhs.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                        <a href="https://joloujapanhomespa.com/" target="_blank"><i class="fa fa-link"></i></a>
                       </div>
-                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                      <a href="https://joloujapanhomespa.com/" class="project-title" target="_blank">Jolou Japan Home Spa (Full-Web)</a>
                     </div>
                   </div>
-
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="box-work">
                   <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p3.png" alt="">
+                    <img src="{{ asset('public/images/400x300kentscsv.png') }}" alt="">
                     <div class="hover">
                       <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p3.png" title="pic 03" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                        <a href="{{ asset('public/images/400x300kentscsv.png') }}" title="pic 02" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="http://resume.kentscsv.com/" target="_blank"><i class="fa fa-link"></i></a>
                       </div>
-                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                      <a href="http://resume.kentscsv.com/" class="project-title" target="_blank">Kent's CSV (Full-Web)</a>
                     </div>
                   </div>
-
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="box-work">
                   <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p4.jpg" alt="">
+                    <img src="{{ asset('public/images/400x300tph.png') }}" alt="">
                     <div class="hover">
                       <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p4.jpg" title="pic 04" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                        <a href="{{ asset('public/images/400x300tph.png') }}" title="pic 03" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="http://resume.kentscsv.com/tph/index" target="_blank"><i class="fa fa-link"></i></a>
                       </div>
-                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                      <a href="http://resume.kentscsv.com/tph/index" class="project-title" target="_blank">Times Plaza Hotel (Full-Web)</a>
                     </div>
                   </div>
-
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="box-work">
                   <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p6.png" alt="">
+                    <img src="{{ asset('public/images/400x300sanyo.png') }}" alt="">
                     <div class="hover">
                       <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p6.png" title="pic 05" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                        <a href="{{ asset('public/images/400x300sanyo.png') }}" title="pic 04" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="https://sanyo-i.jp/s/customer/NewYearSale_tokushu" target="_blank"><i class="fa fa-link"></i></a>
                       </div>
-                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                      <a href="https://sanyo-i.jp/s/customer/NewYearSale_tokushu" class="project-title" target="_blank">Sanyo i-store (Landing Page)</a>
                     </div>
                   </div>
-
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="box-work">
                   <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p5.jpg" alt="">
+                    <img src="{{ asset('public/images/400x300benexy.png') }}" alt="">
                     <div class="hover">
                       <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p5.jpg" title="pic 06" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                        <a href="{{ asset('public/images/400x300benexy.png') }}" title="pic 05" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="https://ec.benexy.com/sp/renewal-campaign/" target="_blank"><i class="fa fa-link"></i></a>
                       </div>
-                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                      <a href="https://ec.benexy.com/sp/renewal-campaign/" class="project-title" target="_blank">Benexy Online (Landing Page)</a>
                     </div>
                   </div>
-
-                </div>
-              </div>
-
-              <div class="col-md-4 col-sm-6">
-                <div class="box-work">
-                  <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p1.png" alt="">
-                    <div class="hover">
-                      <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p1.png"  title="pic 07" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
-                      </div>
-                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
-                    </div>
-                  </div>
-
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="box-work">
                   <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p2.jpg" alt="">
+                    <img src="{{ asset('public/images/400x300grurond.png') }}" alt="">
                     <div class="hover">
                       <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p2.jpg"  title="pic 08" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                        <a href="{{ asset('public/images/400x300grurond.png') }}" title="pic 06" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="http://test.grurond.com/lp/" target="_blank"><i class="fa fa-link"></i></a>
                       </div>
-                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                      <a href="http://test.grurond.com/lp/" class="project-title" target="_blank">Grurond Online Store  (Landing Page)</a>
                     </div>
                   </div>
-
                 </div>
               </div>
               <div class="col-md-4 col-sm-6">
                 <div class="box-work">
                   <div class="work-preview">
-                    <img src="assets/theme/images/portfolio/p3.png" alt="">
+                    <img src="{{ asset('public/images/400x300melrose.png') }}" alt="">
                     <div class="hover">
                       <div class="link-btns">
-                        <a href="assets/theme/images/portfolio/p3.png" title="pic 09" class="galery-item"><i class="fa fa-search-plus"></i></a>
-                        <a href="portfolio-detail.html"><i class="fa fa-link"></i></a>
+                        <a href="{{ asset('public/images/400x300melrose.png') }}"  title="pic 07" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="https://store.melrose.co.jp/sp/martiniquepre_2018_summer_issue/" target="_blank"><i class="fa fa-link"></i></a>
                       </div>
-                      <a href="portfolio-detail.html" class="project-title">Project Title</a>
+                      <a href="https://store.melrose.co.jp/sp/martiniquepre_2018_summer_issue/" class="project-title" target="_blank">Melrose Online (Landing Page)</a>
                     </div>
                   </div>
-
                 </div>
               </div>
-            </div><!--End List WOrk-->
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="{{ asset('public/images/400x300virtusize.png') }}" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="{{ asset('public/images/400x300virtusize.png') }}"  title="pic 08" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="https://sanyo-i.jp/s/customer/virtusize" target="_blank"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="https://sanyo-i.jp/s/customer/virtusize" class="project-title" target="_blank">Sanyo-i (Landing Page)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="box-work">
+                  <div class="work-preview">
+                    <img src="{{ asset('public/images/400x300tegteg.png') }}" alt="">
+                    <div class="hover">
+                      <div class="link-btns">
+                        <a href="{{ asset('public/images/400x300tegteg.png') }}" title="pic 09" class="galery-item"><i class="fa fa-search-plus"></i></a>
+                        <a href="https://onlinestore.tegteg.tokyo/" target="_blank"><i class="fa fa-link"></i></a>
+                      </div>
+                      <a href="https://onlinestore.tegteg.tokyo/" class="project-title" target="_blank">Tegteg Renewal 2018</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
             <!--Pagination-->
@@ -378,9 +439,11 @@
     <script src="{{ asset('public/plugins/simpleCaptcha/jquery.simpleCaptcha.js ') }}"></script>
     <!-- simple Ajax Uploader -->
     <script src="{{ asset('public/plugins/Simple-Ajax-Uploader/SimpleAjaxUploader.min.js') }}"></script>
-    <!-- validate jquery-->
+    <!-- pagination jquery--> 
     <script src="{{ asset('public/plugins/validator/jquery.validate.min.js') }}"></script>
-
+    <!-- validate jquery-->
+    <script src="{{ asset('public/plugins/pagination/pagination.min.js') }}"></script>
+    
     <!--=====================================================-->
     <!--configuration template-->
     <script src="{{ asset('public/white/theme/js/theme.js') }}"></script>

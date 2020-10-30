@@ -16,7 +16,8 @@
     initHold();
     // initCaptcha();
     initAjaxContactForm();
-    initAjaxUploader();
+    // initAjaxUploader();
+    // pagination();
   });
 
   //Run function When PACE (page loader) hide
@@ -341,7 +342,8 @@
   //Map
   function initMap() {
     $('#map-contact').gmap({
-      'center': '35.715745, 139.655168',
+      // 'center': '35.715745, 139.655168',
+      'center': '35.8586604, 139.9425083',
       'zoom': 15,
       scrollwheel: false,
       'disableDefaultUI': false,
@@ -397,6 +399,16 @@
     });
   }
 
+  // function pagination() {
+  //   $('#demo').pagination({
+  //     dataSource: [1, 2, 3, 4, 5, 6, 7, ... 195],
+  //     callback: function(data, pagination) {
+  //         // template method of yourself
+  //         var html = template(data);
+  //         dataContainer.html(html);
+  //     }
+  //   });
+  // } 
   // function initCaptcha() {
   //   $('#mycaptcha').simpleCaptcha({
   //     allowRefresh: false,
