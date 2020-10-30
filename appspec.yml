@@ -3,7 +3,7 @@ os: linux
 files:
   - source: ./appspec.yml
     destination: /var/www/html/
-  - source: ./scipts
+  - source: ./scripts
     destination: /var/www/html/
   - source: ./src
     destination: /var/www/html/cicdaws
