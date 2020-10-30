@@ -491,7 +491,7 @@ system documentation and computer tech support, with the help of <a href="https:
                       <img src="{{ asset('public/images/p2.png') }}" alt="S3 Web Hosting Projects">
                       <div class="hover">
                         <div class="link-btns">
-                          <a href="{{ asset('public/images/Portfolio2200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
+                          <a href="{{ asset('public/images/portfolio2200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
                           <a href="#" target="_blank"><i class="fa fa-link"></i></a>
                         </div>
                         <a href="#" class="project-title" target="_blank">S3 Web Hosting Projects (AWS)</a>
