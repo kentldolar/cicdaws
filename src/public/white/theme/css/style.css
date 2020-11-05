@@ -1071,7 +1071,8 @@ textArea.form-flat {
   margin-left: -75px;
 }
 .flat-carousel .carousel-indicators li.active {
-  width: 20px;
+  /* width: 20px; */
+  width: 11px;
 }
 /*============================
      05. MAIN-HEADER

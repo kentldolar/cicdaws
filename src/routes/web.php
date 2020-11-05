@@ -19,7 +19,7 @@ Route::get('/', function () {
 // white
 Route::get('/whitepage', function () {
     return view('white');
-});
+})->name('white');;
 
 Route::get('/whitelist', function () {
     return view('white.portfolio');
@@ -27,7 +27,7 @@ Route::get('/whitelist', function () {
 
 Route::get('/whitedetail', function () {
     return view('white.portdetail');
-});
+})->name('whitedetail');
 
 Route::get('/whitetemplate', function () {
     return view('white.template');

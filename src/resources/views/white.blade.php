@@ -463,8 +463,8 @@ system documentation and computer tech support, with the help of <a href="https:
           <div class="container">
             <div class="padding30 text-center">
               <a href="{{ asset('public/download/Resume15.pdf') }}" class="btn btn-flat-line btn-default light-font " target="_blank" ><i class="fa fa-download"></i>  Download CV</a>
-              <span class="space-inline-15 hidden-xs"></span>
-              <a href="javascript: w=window.open('{{ asset('public/download/Resume15.pdf') }}'); w.print(); " class="btn btn-flat-line btn-default light-font"><i class="fa fa-print"></i> Print CV</a>
+              <!-- <span class="space-inline-15 hidden-xs"></span> -->
+              <!-- <a href="javascript: w=window.open('{{ asset('public/download/Resume15.pdf') }}'); w.print(); " class="btn btn-flat-line btn-default light-font"><i class="fa fa-print"></i> Print CV</a> -->
             </div>
           </div>
         </div><!-- END DOWNLOAD & PRVIEW BTN -->
@@ -494,9 +494,9 @@ system documentation and computer tech support, with the help of <a href="https:
                       <div class="hover">
                         <div class="link-btns">
                           <a href="{{ asset('public/images/portfolio1200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
-                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                          <a href="{{ URL::route('whitedetail') }}" target="_blank"><i class="fa fa-link"></i></a>
                         </div>
-                        <a href="#" class="project-title" target="_blank">Development and Production Cloud Infrastructure Server Projects (AWS)</a>
+                        <a href="{{ URL::route('whitedetail') }}" class="project-title" target="_blank">Development and Production Cloud Infrastructure Server Projects (AWS)</a>
                       </div>
                     </div>
                   </div>
@@ -508,9 +508,9 @@ system documentation and computer tech support, with the help of <a href="https:
                       <div class="hover">
                         <div class="link-btns">
                           <a href="{{ asset('public/images/portfolio2200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
-                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                          <a href="{{ URL::route('whitedetail') }}" target="_blank"><i class="fa fa-link"></i></a>
                         </div>
-                        <a href="#" class="project-title" target="_blank">S3 Web Hosting Projects (AWS)</a>
+                        <a href="{{ URL::route('whitedetail') }}" class="project-title" target="_blank">S3 Web Hosting Projects (AWS)</a>
                       </div>
                     </div>
                   </div>
@@ -522,9 +522,9 @@ system documentation and computer tech support, with the help of <a href="https:
                       <div class="hover">
                         <div class="link-btns">
                           <a href="{{ asset('public/images/Portfolio3200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
-                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                          <a href="{{ URL::route('whitedetail') }}" target="_blank"><i class="fa fa-link"></i></a>
                         </div>
-                        <a href="#" class="project-title" target="_blank">Speech to Text Serverless Application using AWS Lambda Projects (AWS)</a>
+                        <a href="{{ URL::route('whitedetail') }}" class="project-title" target="_blank">Speech to Text Serverless Application using AWS Lambda Projects (AWS)</a>
                       </div>
                     </div>
                   </div>
@@ -536,9 +536,9 @@ system documentation and computer tech support, with the help of <a href="https:
                       <div class="hover">
                         <div class="link-btns">
                           <a href="{{ asset('public/images/Portfolio4200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
-                          <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                          <a href="{{ URL::route('whitedetail') }}" target="_blank"><i class="fa fa-link"></i></a>
                         </div>
-                        <a href="#" class="project-title" target="_blank">Dual Security using Amazon Workspace (AWS)</a>
+                        <a href="{{ URL::route('whitedetail') }}" class="project-title" target="_blank">Dual Security using Amazon Workspace (AWS)</a>
                       </div>
                     </div>
                   </div>
@@ -550,9 +550,9 @@ system documentation and computer tech support, with the help of <a href="https:
                     <div class="hover">
                       <div class="link-btns">
                         <a href="{{ asset('public/images/portfolio5200.png') }}" title="pic 02" class="galery-item" ><i class="fa fa-search-plus"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-link"></i></a>
+                        <a href="{{ URL::route('whitedetail') }}" target="_blank"><i class="fa fa-link"></i></a>
                       </div>
-                      <a href="#" class="project-title" target="_blank">Development and Production CI/CD Github-CodeDeploy and CodePipeline (AWS)</a>
+                      <a href="{{ URL::route('whitedetail') }}" class="project-title" target="_blank">Development and Production CI/CD Github-CodeDeploy and CodePipeline (AWS)</a>
                     </div>
                   </div>
                 </div>

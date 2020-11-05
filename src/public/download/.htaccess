@@ -1,0 +1,1 @@
+RewriteRule ^(download/|index\.php) - [F,L,NC]

@@ -1,0 +1,51 @@
+RewriteEngine On
+
+ 
+
+# Handle Authorization Header
+
+RewriteCond %{HTTP:Authorization} .
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+ 
+
+# Redirect Trailing Slashes If Not A Folder...
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_URI} (.+)/$
+
+RewriteRule ^ %1 [L,R=301]
+
+ 
+
+# Handle Front Controller...
+
+RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt)$ [NC]
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+
+RewriteRule ^(.*) index.php [L]
+
+# Redirect from subdirectories
+
+RewriteRule ^database https://kentldolar.cloud/ [R=301,L]
+RewriteRule ^app https://kentldolar.cloud/ [R=301,L]
+RewriteRule ^bootstrap https://kentldolar.cloud/ [R=301,L]
+RewriteRule ^config https://kentldolar.cloud/ [R=301,L]
+RewriteRule ^routes https://kentldolar.cloud/ [R=301,L]
+RewriteRule ^storage https://kentldolar.cloud/ [R=301,L]
+RewriteRule ^tests https://kentldolar.cloud/ [R=301,L]
+RewriteRule ^vendor https://kentldolar.cloud/ [R=301,L]
+RewriteRule ^resources https://kentldolar.cloud/ [R=301,L]
+
+# not sure if the '/' after '^' should be there, so remove if not working
+
+ErrorDocument 403 https://kentldolar.cloud/
+ErrorDocument 404 https://kentldolar.cloud/
+ErrorDocument 500 https://kentldolar.cloud/
+
+Redirect 301 https://kentldolar.cloud/public/download/ https://kentldolar.cloud/

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>WHO I AM - DETAILS</title>
+    <title>KENT LOYD DOLAR - RESUME AND PORTFOLIO</title>
     <!--favicon-->
     <link rel="apple-touch-icon" href="{{ asset('public/images/logo.png') }}">
     <link rel="icon" href="{{ asset('public/images/logok_rda_icon.ico') }}">
@@ -57,7 +57,7 @@
           </div>
           <div class="v-content">
             <div class="container">
-              <h1 class="text-uppercase color-dark name">i’m Jhone doe</h1>
+              <h1 class="text-uppercase color-dark name">I'm Kent Loyd Dolar</h1>
               <h4  class="text-uppercase color-dark font-alt job"><span id="typed" class="typed"></span></h4>
             </div>
           </div>
@@ -73,35 +73,35 @@
               <div class="row">
                 <div class="col-md-3">
                   <ul class="breadcrumb main-nav no-space">
-                    <li ><a href="index.html#contact" id="hireme-tab"><i class="fa fa-briefcase"></i> Hire Me Now</a></li>
+                    <li ><a href="{{ URL::route('white') }}#contact" id="hireme-tab"><i class="fa fa-briefcase"></i> Hire Me Now</a></li>
                   </ul>
                 </div>
                 <div class="col-md-6">
                   <ul class="breadcrumb main-nav nav">
-                    <li class=""><a href="index.html#home">Home</a></li>
-                    <li class=""><a href="index.html#about">About</a></li>
-                    <li class=""><a href="index.html#resume">Resume</a></li>
-                    <li class="active"><a href="index.html#portfolio">Portfolio</a></li>
-                    <li class=""><a href="index.html#blog">Blog</a></li>
-                    <li class=""><a href="index.html#contact" id="contact-tab">Contact</a></li>
+                    <li class=""><a href="{{ URL::route('white') }}#home">Home</a></li>
+                    <li class=""><a href="{{ URL::route('white') }}#about">About</a></li>
+                    <li class=""><a href="{{ URL::route('white') }}#resume">Resume</a></li>
+                    <li class="active"><a href="{{ URL::route('white') }}#portfolio">Portfolio</a></li>
+                    <li class=""><a href="{{ URL::route('white') }}#blog">Blog</a></li>
+                    <li class=""><a href="{{ URL::route('white') }}#contact" id="contact-tab">Contact</a></li>
                   </ul>
                 </div>
                 <div class="col-md-3">
                   <ul class="breadcrumb main-nav no-space">
                     <li>
-                      <a href="#" ><i class="fa fa-facebook"></i></a>
+                      <a href="https://www.facebook.com/kent.dolar25" ><i class="fa fa-facebook"></i></a>
                     </li>
                     <li>
-                      <a href="#"  ><i class="fa fa-google"></i></a>
+                      <a href="https://codepen.io/kentcodes/"  ><i class="fa fa-codepen"></i></a>
                     </li>
                     <li>
-                      <a href="#"  ><i class="fa fa-twitter"></i></a>
+                      <a href="https://twitter.com/kelocreate"  ><i class="fa fa-twitter"></i></a>
                     </li>
                     <li>
-                      <a href="#" ><i class="fa fa-linkedin"></i></a>
+                      <a href="https://www.linkedin.com/in/dolarkent/" ><i class="fa fa-linkedin"></i></a>
                     </li>
                     <li>
-                      <a href="#" ><i class="fa fa-github"></i></a>
+                      <a href="https://github.com/kentldolar" ><i class="fa fa-github"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -117,8 +117,8 @@
         <div class=" shape-bottom">
           <div class="bg-secondary block-title">
             <div class="container">
-              <h2 class="text-uppercase color-dark text-bold no-margin">Project Title</h2>
-              <p>Branding - Identity - Graphic Design</p>
+              <h2 class="text-uppercase color-dark text-bold no-margin">AWS Project</h2>
+              <p>AWS-DevOps - Web-Developer - PHP-Engineer</p>
               <div class="title-icon"> <i class="fa fa-inbox"></i> </div>
             </div>
           </div>
@@ -169,20 +169,22 @@
               <div class="col-sm-6">
                 <h3 class="text-uppercase color-dark text-bold">Description</h3>
                 <div class="white-space-10"></div>
-                <p>Curabitur nec nulla lectus, non hendrerit lorem. Quisque lorem risus, porttitor eget fringilla non, vehicula sed tortor. Proin enim quam, vulputate at lobortis quis, condimentum at justo. Phasellus nec nisi justo.</p>
-                <p> porttitor eget fringilla non, vehicula sed tortor. Proin enim quam, vulputate at lobortis quis, condimentum at justo. Phasellus nec nisi justo. Ut luctus sagittis nulla at dapibus. Aliquam ullamcorper commodo elit, quis ornare eros consectetur.</p>
+                <!-- <p>Curabitur nec nulla lectus, non hendrerit lorem. Quisque lorem risus, porttitor eget fringilla non, vehicula sed tortor. Proin enim quam, vulputate at lobortis quis, condimentum at justo. Phasellus nec nisi justo.</p>
+                <p> porttitor eget fringilla non, vehicula sed tortor. Proin enim quam, vulputate at lobortis quis, condimentum at justo. Phasellus nec nisi justo. Ut luctus sagittis nulla at dapibus. Aliquam ullamcorper commodo elit, quis ornare eros consectetur.</p> -->
+                <p>Vlog will be created soon.</p>
                 <div class="white-space-20"></div>
-                <p><a href="#" class="btn btn-flat-solid primary-btn">Visit Site</a></p>
+                <!-- <p><a href="#" class="btn btn-flat-solid primary-btn">Visit Site</a></p> -->
                 <div class="white-space-20"></div>
               </div>
               <div class="col-sm-6">
                 <div class="white-space-20"></div>
                 <div class="box-testimonial left">
-                  <img src="assets/theme/images/people/1.jpg" alt="" class="img-profile">
-                  <h5 class="color-dark text-capitalize no-margin-top line-dash-bottom"> Well Done Jhone! This guy is Really amazing.  </h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <p><a href="#"><img src="assets/theme/images/patner/1.png" alt="" class="img-logo-client"></a></p>
-                  <p class="font-alt no-margin color-dark">Colie - Css Founder</p>
+                <h3 class="text-uppercase color-dark text-bold">Testimony</h3>
+                  <!-- <img src="assets/theme/images/people/1.jpg" alt="" class="img-profile"> -->
+                  <!-- <h5 class="color-dark text-capitalize no-margin-top line-dash-bottom"> Well Done Jhone! This guy is Really amazing.  </h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+                  <!-- <p><a href="#"><img src="assets/theme/images/patner/1.png" alt="" class="img-logo-client"></a></p>
+                  <p class="font-alt no-margin color-dark">Colie - Css Founder</p> -->
                 </div>
               </div>
 
@@ -210,25 +212,25 @@
           </div>
           <ul class="list-inline social-links text-center">
             <li>
-              <a href="#"  data-toggle="tooltip"  data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.facebook.com/kent.dolar25"  data-toggle="tooltip"  data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
             </li>
             <li>
-              <a href="#"  data-toggle="tooltip"  data-placement="top" title="Google"><i class="fa fa-google"></i></a>
+              <a href="https://codepen.io/kentcodes/"  data-toggle="tooltip"  data-placement="top" title="Codepen"><i class="fa fa-codepen"></i></a>
             </li>
             <li>
-              <a href="#"  data-toggle="tooltip"  data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://twitter.com/kelocreate"  data-toggle="tooltip"  data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
             </li>
             <li>
-              <a href="#"  data-toggle="tooltip"  data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/dolarkent/"  data-toggle="tooltip"  data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
             </li>
             <li>
-              <a href="#"  data-toggle="tooltip"  data-placement="top" title="Github"><i class="fa fa-github"></i></a>
+              <a href="https://github.com/kentldolar"  data-toggle="tooltip"  data-placement="top" title="Github"><i class="fa fa-github"></i></a>
             </li>
           </ul>
           <p class="text-center no-margin">
-            Solid - All Rights Reserved &COPY; 2014
+              kentldolar.cloud - All Rights Reserved &COPY; 2020
           </p>
-          <a href="#home" class="back-to-top"><i class="fa fa-angle-double-up" ></i></a>
+          <a href="{{ URL::route('white') }}#home" class="back-to-top"><i class="fa fa-angle-double-up" ></i></a>
         </div>
       </footer><!--END FOOTER-->
     </div><!--End wrapper page-->
