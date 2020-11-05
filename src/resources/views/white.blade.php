@@ -462,9 +462,9 @@ system documentation and computer tech support, with the help of <a href="https:
         <div class="parallax-bg bg1" >
           <div class="container">
             <div class="padding30 text-center">
-              <a href="{{ asset('public/download/Resume15.pdf') }}" class="btn btn-flat-line btn-default light-font " target="_blank" ><i class="fa fa-download"></i>  Download CV</a>
+              <a href="{{ asset('public/download/Resume20.pdf') }}" class="btn btn-flat-line btn-default light-font " target="_blank" ><i class="fa fa-download"></i>  Download CV</a>
               <!-- <span class="space-inline-15 hidden-xs"></span> -->
-              <!-- <a href="javascript: w=window.open('{{ asset('public/download/Resume15.pdf') }}'); w.print(); " class="btn btn-flat-line btn-default light-font"><i class="fa fa-print"></i> Print CV</a> -->
+              <!-- <a href="javascript: w=window.open('{{ asset('public/download/Resume20.pdf') }}'); w.print(); " class="btn btn-flat-line btn-default light-font"><i class="fa fa-print"></i> Print CV</a> -->
             </div>
           </div>
         </div><!-- END DOWNLOAD & PRVIEW BTN -->
